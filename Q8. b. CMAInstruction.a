@@ -1,0 +1,4 @@
+;WAP to simulate CMA register reference instruction and determine the contents of other registers
+READ   ;To read a number in AC
+CMA    ;To complement the value of AC, and writing the content of AC, E, PC, AR and IR
+STOP   ;To halt the program

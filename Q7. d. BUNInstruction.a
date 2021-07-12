@@ -1,0 +1,5 @@
+;WAP to simulate BUN memory reference instruction
+READ    ;To read a number in AC
+BUN GO    ;To branch at memory location GO
+WRITE   ;To show the content of AC
+GO: STOP    ;To halt the program

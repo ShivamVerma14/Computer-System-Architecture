@@ -1,0 +1,5 @@
+;WAP to simulate SPA register-reference Instruction.
+READ    ;To read a number in AC
+SPA    ;To skip if AC is positive and writing the contents of AC, E, PC, AR and IR
+WRITE    ;To show the contents of AC
+STOP    ;To halt the program using HaltBit

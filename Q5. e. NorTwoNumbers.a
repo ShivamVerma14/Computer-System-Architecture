@@ -1,0 +1,8 @@
+;WAP to simulate NOR operation on two-user entered numbers.
+READ    ;To read a number in AC
+TRANSFER_ATD    ;Transfer the data from AC to DR
+READ    ;To read second number in AC
+NOR    ;To NOR the numbers in AC
+AND    ;To AND the contents of AC and DR
+WRITE    ;To show the output
+STOP    ;To halt the program

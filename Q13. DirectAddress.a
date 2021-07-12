@@ -1,0 +1,6 @@
+;Write an assembly program to simulate the machine for addition of two numbers with I= 0 (Direct Address) and address part = 082. 
+;The instruction to be stored at address 022 in RAM, initialize the memory word with any decimal value at address 082.
+;Determine the contents of AC, DR, PC, AR and IR  in decimal after the execution. 
+READ    ;To read a number in AC
+ADD 0 82    ;To sum AC with number at location 082 and to write the contents of AC, DR, PC, AR and IR
+STOP    ;To halt the program

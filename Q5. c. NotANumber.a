@@ -1,0 +1,6 @@
+;WAP to simulate NOT operation on two-user entered numbers.
+READ    ;To read a number in AC
+NOT    ;To NOT the number in AC
+AND    ;To AND the contents of AC and DR
+WRITE    ;To show the output
+STOP    ;To halt the program

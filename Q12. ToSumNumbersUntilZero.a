@@ -1,0 +1,11 @@
+;WAP that reads in integers and adds them together until a zero is read in.
+;Then outputs the sum.
+Start: READ    ;To read a number in AC
+       JUMPZ Done    ;To jump at location Done if AC is zero
+       ADD Sum    ;To add AC to Sum
+       STORE Sum    ;To store the new sum at location Sum
+       BUN Start    ;To branch at location Start
+Done:  LOAD Sum    ;To load the sum back to AC
+       WRITE    ;To show the contents of AC
+       STOP    ;To halt the program using STATUS register
+Sum: .data 1 0    ;A one word capacity location in memory with value 0

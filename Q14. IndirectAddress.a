@@ -1,0 +1,8 @@
+;Simulate the machine for the memory-reference instruction referred in above question with I= 1 (Indirect Address) and address part = 082. 
+;The instruction to be stored at address 026 in RAM. 
+;Initialize the memory word at address 082 with the value 298. 
+;Initialize the memory word at address 298 with operand 632 and AC with 937. 
+;Determine the contents of AC, DR, PC, AR and IR in decimal after the execution.  
+READ    ;To read a number in AC
+ADD 1 82    ;To add AC with value at location 82(indirect addressing)
+STOP    ;To halt the program

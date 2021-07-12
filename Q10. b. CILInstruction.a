@@ -1,0 +1,4 @@
+;WAP to simulate CIL Register-reference Instruction.
+READ    ;To read a number in AC
+CIL    ;To circulate left the number in AC and writing the content of AC, E, PC, AR and IR
+STOP    ;To halt the program   

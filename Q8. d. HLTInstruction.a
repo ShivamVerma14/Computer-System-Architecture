@@ -1,0 +1,4 @@
+;WAP to simulate HLT register reference instruction and determine the contents of other registers
+READ   ;To read a number in AC
+CLE    ;To clear E->0, and writing the content of AC, E, PC, AR and IR
+HLT   ;To halt the program using STATUS register

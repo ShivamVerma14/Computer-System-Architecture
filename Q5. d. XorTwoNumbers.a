@@ -1,0 +1,7 @@
+;WAP to simulate XOR operation on two-user entered numbers.
+READ    ;To read a number in AC
+TRANSFER_ATD    ;Transfer the data from AC to DR
+READ    ;To read second number in AC
+XOR    ;To XOR the numbers in AC
+WRITE    ;To show the output
+STOP    ;To halt the program

@@ -1,0 +1,5 @@
+;WAP to simulate ISZ memory reference instruction
+ISZ SUM    ;To load the content of SUM in AC
+WRITE SUM   ;To show the content of memory at location SUM in console
+STOP    ;To halt the program
+SUM: .data 1 -1    ;1-word capacity location in memory with value 0

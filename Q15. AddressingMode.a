@@ -1,0 +1,6 @@
+; The instruction format contains 3 bits of opcode, 12 bits for address and 1 bit for addressing mode. 
+;There are only two addressing modes, I = 0 is direct addressing and I = 1 is indirect addressing. 
+;Write an assembly program to check the I bit to determine the addressing mode and then jump accordingly.
+READ    ;To read the contents in AC
+ADD 0 40    ;To add AC to the value in Memory location  
+STOP    ;To halt the program 
